@@ -20,7 +20,7 @@
     }
   },
   "components": [
-    "https://github.com/communiteq/discourse-add-category-column.git",
+    "https://github.com/discourse/discourse-add-category-column",
     "https://github.com/discourse/discourse-category-badge-styles",
     "https://github.com/discourse/discourse-new-topic-button-theme-component.git",
     "https://github.com/nolosb/discourse-primary-button.git"

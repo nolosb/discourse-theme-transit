@@ -1,0 +1,4 @@
+badge_characters:
+  default: '2ch'
+table_cell_length:
+  default: '80px'

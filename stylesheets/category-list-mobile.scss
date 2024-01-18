@@ -1,0 +1,26 @@
+.categories-list .category-list.with-topics {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  margin-top: 1rem;
+  .category-list-item {
+    box-sizing: border-box;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left-width: 16px;
+    background-color: var(--primary-100);
+    border-radius: var(--d-border-radius);
+    padding: 0.5em 0.25em;
+    margin: 0;
+  }
+  .category-list-item .category-description {
+    display: inline-block;
+  }
+  .category-list-item .category-topic-link {
+    display: none;
+  }
+  .topic-list {
+    border-collapse: unset;
+    border-spacing: 0 0.25rem;
+  }
+}

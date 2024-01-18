@@ -1,0 +1,14 @@
+@import 'header';
+@import 'badge-category';
+@import 'topics';
+@import 'sidebar';
+@import 'editor';
+
+:root {
+  --d-border-radius: 8px;
+  --d-button-border-radius: 4px;
+}
+
+html.desktop-view {
+  font-size: 16px;
+}

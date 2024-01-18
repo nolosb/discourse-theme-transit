@@ -1,0 +1,21 @@
+@import 'category-list-mobile';
+@import 'topic-list-mobile';
+
+// Header
+.d-header #site-logo {
+  padding-left: 6px;
+}
+
+// List controls
+.list-controls .container #create-topic {
+  display: none;
+}
+
+// Topics
+#topic-title .title-wrapper {
+  width: 100%;
+  gap: 1em;
+  .topic-category {
+    flex-wrap: nowrap;
+  }
+}

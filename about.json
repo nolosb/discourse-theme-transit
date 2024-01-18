@@ -1,0 +1,28 @@
+{
+  "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
+  "license_url": "TODO: Put your theme's LICENSE URL here",
+  "name": "Transit",
+  "authors": "Manuel Kostka",
+  "color_schemes": {
+    "Transit Light": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "ffe21a",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "selected": "e9e9e9",
+      "hover": "f2f2f2"
+    }
+  },
+  "components": [
+    "https://github.com/communiteq/discourse-add-category-column.git",
+    "https://github.com/discourse/discourse-category-badge-styles",
+    "https://github.com/discourse/discourse-new-topic-button-theme-component.git",
+    "https://github.com/nolosb/discourse-primary-button.git"
+  ]
+}

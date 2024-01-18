@@ -1,0 +1,14 @@
+#topic-title .title-wrapper {
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 80%;
+  h1 {
+    order: 2;
+    width: unset;
+  }
+}
+.onscreen-post .row .topic-avatar,
+.small-action .topic-avatar {
+  padding-right: 1rem;
+}

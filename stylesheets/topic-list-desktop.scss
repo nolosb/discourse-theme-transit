@@ -1,0 +1,102 @@
+/* ---------------------------
+  Layout
+--------------------------- */
+.topic-list {
+  display: block;
+}
+.topic-list * {
+  box-sizing: border-box;
+}
+.topic-list .topic-list-body,
+.topic-list .topic-list-header {
+  width: 100%;
+  display: block;
+}
+// Header
+.topic-list .topic-list-header tr {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  gap: 10px;
+  align-items: center;
+}
+.topic-list .topic-list-header tr .topic-list-data {
+  padding: 0;
+  &.default {
+    order: 3;
+    flex-grow: 1;
+  }
+  &.posters {
+    order: 2;
+  }
+  &.activity {
+    order: 1;
+    text-align: left;
+  }
+  &.category {
+    order: 4;
+  }
+  &.views {
+    order: 5;
+  }
+  &.posts {
+    order: 6;
+  }
+}
+// Body
+.topic-list .topic-list-item {
+  display: flex;
+  width: 100%;
+  padding: 1.75rem 0.5rem 1.75rem 1rem;
+  align-items: center;
+  gap: 10px;
+  border-radius: var(--d-border-radius);
+  border-bottom: none;
+  margin-bottom: 0.5rem;
+}
+.topic-list .topic-list-item .topic-list-data {
+  padding: 0;
+  &.main-link {
+    order: 3;
+    flex-grow: 1;
+  }
+  &.posters {
+    order: 2;
+    height: unset;
+    width: 156px;
+  }
+  &.age {
+    order: 1;
+    text-align: left;
+  }
+  &.category {
+    order: 4;
+  }
+  &.views {
+    order: 5;
+  }
+  &.posts-map {
+    order: 6;
+  }
+}
+
+/* ---------------------------
+  Elements
+--------------------------- */
+.topic-list .topic-list-header tr {
+  border-bottom: none;
+}
+.topic-list .topic-list-body {
+  border-top: none;
+}
+.topic-list .topic-excerpt,
+.topic-list .link-bottom-line {
+  display: none;
+}
+
+/* ---------------------------
+  Colors
+--------------------------- */
+.topic-list .topic-list-item {
+  background-color: var(--primary-100);
+}

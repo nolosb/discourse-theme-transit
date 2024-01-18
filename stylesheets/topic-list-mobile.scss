@@ -1,0 +1,57 @@
+.topic-list {
+  border-collapse: unset;
+  border-spacing: 0 1rem;
+  .topic-list-item {
+    border-bottom: 10px solid var(--secondary);
+  }
+  .topic-list-data {
+    border-radius: var(--d-border-radius);
+    background-color: var(--primary-100);
+    padding: 1.25rem 1rem 1.5rem 1rem;
+  }
+  .pull-left {
+    display: none;
+  }
+  .topic-item-metadata.right {
+    margin-left: 0;
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    > * {
+      margin: 0;
+    }
+    .main-link {
+      order: 2;
+      width: 100%;
+    }
+    .pull-right {
+      order: 3;
+    }
+    .topic-item-stats {
+      order: 1;
+      position: static;
+    }
+    .topic-item-stats.clearfix:before,
+    .topic-item-stats.clearfix:after {
+      display: none; // unset table display
+    }
+    .topic-item-stats__category-tags {
+      margin-right: 0;
+      max-width: unset;
+    }
+    .topic-item-stats__category-tags .badge-category__wrapper {
+      margin-right: 0;
+    }
+    .num {
+      text-align: right;
+    }
+    .num.activity {
+      position: absolute;
+      right: 0;
+      top: 2rem;
+    }
+    .topic-excerpt {
+      display: none;
+    }
+  }
+}

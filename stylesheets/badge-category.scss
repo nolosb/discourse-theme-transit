@@ -1,0 +1,37 @@
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/jetbrains-mono.min.css');
+
+.badge-category__wrapper {
+  --badge-category-padding-h: 0;
+  --badge-category-padding-v: 0;
+}
+
+.badge-category__wrapper .badge-category {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2rem;
+  min-width: $badge-characters;
+  padding: 10px;
+  border-radius: var(--d-button-border-radius);
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-category__wrapper .badge-category__name {
+  display: inline-block;
+  line-height: 1;
+  font-weight: 600;
+  width: $badge-characters;
+  text-overflow: clip;
+}
+
+.badge-category__wrapper .badge-category .d-icon {
+  display: none;
+}
+
+// Adjust list width
+.topic-list-data.category {
+  flex: 0 1 $table-cell-length;
+  width: $table-cell-length;
+  .badge-category {
+    max-width: unset;
+  }
+}

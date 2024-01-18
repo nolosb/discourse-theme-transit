@@ -1,0 +1,37 @@
+.d-header {
+  height: 75px;
+  box-shadow: none;
+  border-bottom: 1px solid var(--primary-100);
+
+  .extra-info-wrapper .title-wrapper {
+    grid-template-areas: 'categories title';
+    gap: 1em;
+    align-items: center;
+  }
+
+  #new-create-topic {
+    box-sizing: content-box;
+    background-color: transparent;
+    background-image: none;
+    padding: 0.2143em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2857em;
+    height: 2.2857em;
+    .d-icon {
+      font-size: 1.9rem;
+      line-height: var(--line-height-large);
+      display: inline-block;
+      margin-right: 0;
+      margin-bottom: 3px;
+      color: var(--header_primary-low-mid);
+    }
+    .d-button-label {
+      display: none;
+    }
+  }
+  .d-header-icons {
+    gap: 0.5em;
+  }
+}
